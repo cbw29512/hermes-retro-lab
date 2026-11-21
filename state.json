@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "experiment": {
+    "name": "Hermes Retro Lab Beta 1",
+    "status": "ready",
+    "started_at": null,
+    "completed_at": null
+  },
+  "environment": {
+    "type": "isolated-virtual-machine",
+    "provisioned": false,
+    "host_access": false,
+    "inference_endpoint_ready": false,
+    "repository_scope": "cbw29512/hermes-retro-lab"
+  },
+  "current_product": {
+    "slug": null,
+    "title": null,
+    "category": null,
+    "stage": "not_started",
+    "description": null,
+    "source_paths": [],
+    "preview_paths": [],
+    "package_path": null
+  },
+  "last_run": {
+    "run_id": null,
+    "started_at": null,
+    "ended_at": null,
+    "result": "not_run",
+    "summary": null,
+    "tests": []
+  },
+  "metrics": {
+    "product_candidates": 0,
+    "products_packaged": 0,
+    "tests_passed": 0,
+    "tests_failed": 0,
+    "verified_sales_count": 0,
+    "verified_net_revenue_usd": 0
+  },
+  "blockers": [
+    "VM is not provisioned; Hermes is not yet connected to this repository."
+  ],
+  "next_action": "Verify KVM support, available RAM and disk; then provision an isolated VM with scoped GitHub access."
+}
